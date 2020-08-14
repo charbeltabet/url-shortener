@@ -1,0 +1,24 @@
+<%- include('./layouts/header'); -%>
+    <div class="container-fluid">
+        <div class="mx-1">
+            <div class="h2">Welcome to the url shortener</div>
+            <form method="POST" action="/">
+                <p>
+                    <label>Long url:</label>
+                    <input name="longUrl" type="url" class="form-control" placeholder="https://www.example.com">
+                </p>
+                <p>
+                    <label>Title: (optional)</label>
+                    <input name="title" type="text" class="form-control" placeholder="Check out example">
+                </p>
+                <p>
+                    <label>Description: (optional)</label>
+                    <input name="description" type="text" class="form-control" placeholder="description goes here">
+                </p>
+                <p>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </p>
+            </form>
+        </div>
+    </div>
+<%- include('./layouts/footer'); -%>

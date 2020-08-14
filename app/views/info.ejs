@@ -1,0 +1,11 @@
+<%- include('./layouts/header.ejs') -%>
+<div class="container-fluid">
+    <div class="mx-1">
+        <p>Long Url: <a href="<%= info.longUrl %>" target="_blank"><%= info.longUrl %></a></p>
+        <p>Short Url: <a href="<%= info.shortUrl %>" target="_blank"><%= info.shortUrl %></a></p>
+        <p>Custom Title: <%= info.title %></p>
+        <p>Custom Description: <%= info.description %></p>
+        <p>Shortened on: <%= info.date %></p>
+    </div>
+</div>
+<%- include('./layouts/footer.ejs') -%>
