@@ -1,8 +1,6 @@
 # Url shortener
 Simple url shortener web app with basic rebranding features such as custom title and description.
 
-Demo here https://gentle-thicket-01498.herokuapp.com/
-
 # Installation
 To get a local version running on your machine you need:
 - node and npm [here](https://nodejs.org/en/download/).
